@@ -25,6 +25,10 @@
 		1F7705A2280A06FD002F3388 /* IndexTermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7705A0280A06FD002F3388 /* IndexTermsViewController.xib */; };
 		1F7705A5280A0710002F3388 /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7705A3280A0710002F3388 /* CryptoViewController.swift */; };
 		1F7705A6280A0710002F3388 /* CryptoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7705A4280A0710002F3388 /* CryptoViewController.xib */; };
+		1F7705A9280B8999002F3388 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7705A8280B8999002F3388 /* NetworkError.swift */; };
+		1F7705AB280B8A45002F3388 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7705AA280B8A45002F3388 /* RequestModel.swift */; };
+		1F7705AE280B8BED002F3388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7705AD280B8BED002F3388 /* Constants.swift */; };
+		1F7705B0280B8C3B002F3388 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7705AF280B8C3B002F3388 /* ServiceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		1F7705A0280A06FD002F3388 /* IndexTermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndexTermsViewController.xib; sourceTree = "<group>"; };
 		1F7705A3280A0710002F3388 /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
 		1F7705A4280A0710002F3388 /* CryptoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoViewController.xib; sourceTree = "<group>"; };
+		1F7705A8280B8999002F3388 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1F7705AA280B8A45002F3388 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		1F7705AD280B8BED002F3388 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F7705AF280B8C3B002F3388 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,8 @@
 		1F770574280A0271002F3388 /* RankingStocks */ = {
 			isa = PBXGroup;
 			children = (
+				1F7705AC280B8BD3002F3388 /* Utils */,
+				1F7705A7280B897E002F3388 /* ServiceLayer */,
 				1F770592280A0685002F3388 /* Crypto */,
 				1F770591280A0677002F3388 /* IndexTerms */,
 				1F770590280A0664002F3388 /* FixedTerms */,
@@ -149,6 +159,24 @@
 				1F7705A4280A0710002F3388 /* CryptoViewController.xib */,
 			);
 			path = Crypto;
+			sourceTree = "<group>";
+		};
+		1F7705A7280B897E002F3388 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1F7705A8280B8999002F3388 /* NetworkError.swift */,
+				1F7705AA280B8A45002F3388 /* RequestModel.swift */,
+				1F7705AF280B8C3B002F3388 /* ServiceLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		1F7705AC280B8BD3002F3388 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F7705AD280B8BED002F3388 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +262,13 @@
 				1F77059D280A06E5002F3388 /* FixedTermsViewController.swift in Sources */,
 				1F770599280A06CF002F3388 /* BoundViewController.swift in Sources */,
 				1F770578280A0271002F3388 /* SceneDelegate.swift in Sources */,
+				1F7705AE280B8BED002F3388 /* Constants.swift in Sources */,
 				1F77058B280A0324002F3388 /* RootPageViewController.swift in Sources */,
 				1F7705A1280A06FD002F3388 /* IndexTermsViewController.swift in Sources */,
+				1F7705A9280B8999002F3388 /* NetworkError.swift in Sources */,
 				1F77058D280A0350002F3388 /* MainViewController.swift in Sources */,
+				1F7705AB280B8A45002F3388 /* RequestModel.swift in Sources */,
+				1F7705B0280B8C3B002F3388 /* ServiceLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
